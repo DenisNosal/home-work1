@@ -3,7 +3,8 @@ let money = prompt ("Ваш бюджет на месяц?", ''),
 
 let appData ={
     budget: money,
-    optionalExpenses6 {},
+    optionalExpenses {},
+    income: [],
     timeData: time,
     saving: false
 };
